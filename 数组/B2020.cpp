@@ -10,7 +10,6 @@ int main(){
     cin >> sum[0] >> sum[1] >> sum[2] >> sum[3] >> sum[4];
     int c = 0;
     for(int i = 0; i < 5; i++){
-        
         c += sum[i] % 3;
         sum[i] = sum[i] / 3;
 
